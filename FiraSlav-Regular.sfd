@@ -193,7 +193,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 324 27 9
+WinInfo: 297 27 9
 BeginPrivate: 10
 BlueValues 31 [-13 0 527 540 689 702 739 752]
 OtherBlues 11 [-213 -200]
@@ -46397,7 +46397,7 @@ EndChar
 StartChar: acutecomb
 Encoding: 769 769 1405
 Width: 600
-GlyphClass: 4
+GlyphClass: 2
 Flags: W
 HStem: 640 157
 VStem: 182.5 235
