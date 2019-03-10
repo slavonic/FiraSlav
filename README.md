@@ -1,4 +1,4 @@
-# Fira Slav 3.5
+# Fira Slav 4.0
 
 FiraSlav is a monospaced font for Church Slavonic.
 
@@ -14,15 +14,24 @@ symbols and maintains a monospaced appearance, ideal for text editing projects.
 - Fira is a trademark of The Mozilla Corporation.
 
 - Digitized data copyright 2012-2018, The Mozilla Foundation and Telefonica S.A., bBox Type GmbH and Carrois Corporate GbR, with Reserved Font Name "Fira" 
-
 - Design 2012-2015: Carrois Corporate GbR & Edenspiekermann AG
 - Design 2016 and later: bBox Type GmbH
+- Additional Design 2019: Aleksandr Andreev
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 ### Fira Slav font weights:
 
 * Regular 		(84em / CSS 400)
-* Medium 		(112em / CSS 500)
 * Bold  		(158em / CSS 700)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+To generate fonts from source, run:
+
+`make all`
+
+Creates OTF file. To generate web vesion of fonts, run:
+
+`make web`
+
+Creates TTF, WOFF, and WOFF2 files.
