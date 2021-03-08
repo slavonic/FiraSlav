@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: FiraSlav-Regular
 FullName: Fira Slav Regular
 FamilyName: Fira Slav
@@ -70,7 +70,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1512 27 9
+WinInfo: 1647 27 9
 BeginPrivate: 10
 BlueValues 31 [-13 0 527 540 689 702 739 752]
 OtherBlues 11 [-213 -200]
@@ -65562,8 +65562,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: u1CFC0
-Encoding: 118720 118720 1803
+StartChar: u1CF861CFBF
+Encoding: 60241 60241 1803
 Width: 600
 VWidth: 0
 Flags: W
@@ -65705,8 +65705,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: u1CFC4
-Encoding: 118724 118724 1807
+StartChar: u1CFC0
+Encoding: 118720 118720 1807
 Width: 600
 VWidth: 0
 Flags: W

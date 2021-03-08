@@ -1,4 +1,4 @@
-Copyright 2019 Aleksandr Andreev, Slavonic Computing Initiative
+Copyright 2019-2021 Aleksandr Andreev, Slavonic Computing Initiative
 Digitized data copyright 2012-2018: The Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
