@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Xi" format="2">
+  <advance width="600"/>
+  <unicode hex="039E"/>
+  <outline>
+    <contour>
+      <point x="513" y="689" type="line"/>
+      <point x="501" y="609" type="line"/>
+      <point x="77" y="609" type="line"/>
+      <point x="77" y="689" type="line"/>
+    </contour>
+    <contour>
+      <point x="464" y="389" type="line"/>
+      <point x="464" y="309" type="line"/>
+      <point x="127" y="309" type="line"/>
+      <point x="127" y="389" type="line"/>
+    </contour>
+    <contour>
+      <point x="523" y="81" type="line"/>
+      <point x="523" y="0" type="line"/>
+      <point x="77" y="0" type="line"/>
+      <point x="77" y="81" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>81</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>309</integer>
+            <key>width</key>
+            <integer>80</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>609</integer>
+            <key>width</key>
+            <integer>80</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

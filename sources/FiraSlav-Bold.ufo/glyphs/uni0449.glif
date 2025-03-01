@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0449" format="2">
+  <advance width="600"/>
+  <unicode hex="0449"/>
+  <outline>
+    <contour>
+      <point x="575" y="117" type="line"/>
+      <point x="626" y="117" type="line"/>
+      <point x="626" y="-174" type="line"/>
+      <point x="507" y="-174" type="line"/>
+      <point x="488" y="0" type="line"/>
+      <point x="25" y="0" type="line"/>
+      <point x="25" y="531" type="line"/>
+      <point x="159" y="531" type="line"/>
+      <point x="159" y="117" type="line"/>
+      <point x="242" y="117" type="line"/>
+      <point x="242" y="531" type="line"/>
+      <point x="358" y="531" type="line"/>
+      <point x="358" y="117" type="line"/>
+      <point x="426" y="117" type="line"/>
+      <point x="440" y="117" type="line"/>
+      <point x="440" y="531" type="line"/>
+      <point x="575" y="531" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>117</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>511</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>25</integer>
+            <key>width</key>
+            <integer>134</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>242</integer>
+            <key>width</key>
+            <integer>116</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>440</integer>
+            <key>width</key>
+            <integer>135</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>507</integer>
+            <key>width</key>
+            <integer>119</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

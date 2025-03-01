@@ -1,17 +1,16 @@
 SplineFontDB: 3.2
 FontName: FiraSlav-Bold
-FullName: Fira Slav Bold
+FullName: Fira Slav
 FamilyName: Fira Slav
 Weight: Bold
-Copyright: Copyright 2019 Aleksandr Andreev. Slavonic Computing Initiative. Digitized data copyright \\(c\\) 2012-2015, The Mozilla Foundation and Telefonica S.A.
-Version: 003.5
+Copyright: Copyright 2025 The FiraSlav Project Authors (https://github.com/slavonic/FiraSlav)
+Version: 4.1
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
 InvalidEm: 0
-sfntRevision: 0x00037fbe
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
@@ -22,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1441835616
-ModificationTime: 1584948361
+ModificationTime: 1740861540
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -54,15 +53,15 @@ OS2StrikeYSize: 50
 OS2StrikeYPos: 318
 OS2CapHeight: 693
 OS2XHeight: 531
-OS2Vendor: 'CTDB'
+OS2Vendor: '    '
 OS2CodePages: 6000009f.00000000
 OS2UnicodeRanges: 40000287.02003801.00000000.00000000
 Lookup: 1 0 0 "ccmpMapCombiningGlyphs" { "ccmpMapCombiningGlyphs subtable"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'ABK ' 'BEL ' 'BGR ' 'BOS ' 'CHE ' 'CHK ' 'CHU ' 'CSL ' 'KAZ ' 'RUS ' 'SRB ' 'UKR ' 'dflt' > 'grek' <'ELL ' 'dflt' > 'latn' <'AFK ' 'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
 MarkAttachClasses: 3
 "MarkClass-1" 125 acutecomb uni0306 uni030C uni0302 uni0313 uni0314 uni030F uni0308 uni0307 gravecomb uni030B uni0304 uni030A tildecomb uni0342
-"MarkClass-2" 36 uni0327 uni0326 uni0326.case uni0345
+"MarkClass-2" 23 uni0327 uni0326 uni0345
 DEI: 91125
-LangName: 1033 "Copyright 2019 Aleksandr Andreev. Slavonic Computing Initiative. Digitized data copyright +AKkA 2012-2015, The Mozilla Foundation and Telefonica S.A." "" "" "" "" "" "" "" "" "Slavonic Computing Initiative" "" "https://sci.ponomar.net/" "https://sci.ponomar.net/" "Licensed under the Open Font License, version 1.1 or later" "http://scripts.sil.org/OFL"
+LangName: 1033
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -70,7 +69,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1647 27 9
+WinInfo: 297 27 9
 BeginPrivate: 10
 BlueValues 31 [-20 0 531 551 693 713 742 762]
 OtherBlues 11 [-241 -221]
@@ -83,6 +82,7 @@ StdVW 5 [158]
 StemSnapH 5 [117]
 StemSnapV 5 [158]
 EndPrivate
+TeXData: 1 0 0 629145 314572 209715 556794 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 1114113 1883
 
 StartChar: .notdef
