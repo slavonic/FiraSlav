@@ -1,22 +1,26 @@
-build:
+DRAWBOT_OUTPUT=$(shell ls documentation/*.py | sed 's/\.py/.png/g')
+
+build: venv build.stamp
+
+build.stamp:
 	fontforge -script hp-generate.py
+	. venv/bin/activate; fonttools ttLib.woff2 compress -o fonts/webfonts/FiraSlav-Regular.woff2 fonts/ttf/FiraSlav-Regular.ttf
+	. venv/bin/activate; fonttools ttLib.woff2 compress -o fonts/webfonts/FiraSlav-Bold.woff2 fonts/ttf/FiraSlav-Bold.ttf
+	touch build.stamp
 
-all: FiraSlav.zip
+venv: venv/touchfile
 
-FiraSlav.zip:
-	rm -f *.otf *.zip
-	fontforge -script hp-generate.py
-	zip -j $@ *.otf OFL.txt
+venv/touchfile: requirements.txt
+	test -d venv || python3 -m venv venv
+	. venv/bin/activate; pip install -Ur requirements.txt
+	touch venv/touchfile
 
-web: FiraSlav-Bold.woff2
+images: venv $(DRAWBOT_OUTPUT)
 
-FiraSlav-Bold.woff2:
-	rm -f *.otf *.ttf *.woff *.eot *.woff2
-	fontforge -script web-generate.py
-	ttf2eot < FiraSlav-Regular.ttf > FiraSlav-Regular.eot
-	ttf2eot < FiraSlav-Bold.ttf > FiraSlav-Bold.eot
-	woff2_compress FiraSlav-Regular.ttf
-	woff2_compress FiraSlav-Bold.ttf
+%.png: %.py build.stamp
+	. venv/bin/activate; python3 $< --output $@
 
 clean:
-	rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip
+	rm build.stamp
+	rm -rf venv
+	find . -name "*.pyc" -delete

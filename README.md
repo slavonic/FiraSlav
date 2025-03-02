@@ -35,7 +35,10 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 ## Building the Fonts
 
-The font is built using fontmake and gftools post processing script. Tools are all python based, so it must be previously installed.
+The Google font building tools do not work correctly for this font as
+they generate fonts where the combining characters are non-spacing, which
+is exactly what we don't want. So the fonts are built directly from the 
+FontForge source. So you must have Python and FontForge installed.
 
 To install all the Python tools into a virtualenv, do the following:
 
@@ -43,32 +46,17 @@ From terminal:
 
 ```
 
-cd your/local/project/directory
-
-#once in the project folder create a virtual environment. 
-This step has to be done just once, the first time:
-
-python3 -m venv venv
-
-#activate the virtual environment
-
-source venv/bin/activate
-
-#install the required dependencies
-
-pip install -r requirements.txt
+make build
 
 ```
 
-Then run the this command:
+To build the sample images, run:
 
 ```
-cd sources
-gftools builder config.yaml
-```
 
-The fonts are supposed to build automatically in the repository 
-using GitHub Actions, but this does not work correctly.
+make images
+
+```
 
 ## More Church Slavonic Fonts
 

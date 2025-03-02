@@ -21,11 +21,11 @@ FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = "(?:҂([$h]))"
-LINE_TWO = "  *(?:҂([$o]))"
-LINE_THREE = "   *([$h]?)([кл]?)"
-LINE_FOUR = "       ([$o]?)$/"
-BIG_TEXT_FONT_SIZE = 160
+LINE_ONE = "letter = "
+LINE_TWO = " '(?:ᲂу|Оу|оу\\S)"
+LINE_THREE = "[̀́̑҆̾̏҇҃ⷠⷡⷢⷣⷷⷤⷥꙵꙶⷦ]*"
+LINE_FOUR = "   ';"
+BIG_TEXT_FONT_SIZE = 140
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45
 
