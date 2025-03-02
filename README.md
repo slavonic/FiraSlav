@@ -40,9 +40,7 @@ they generate fonts where the combining characters are non-spacing, which
 is exactly what we don't want. So the fonts are built directly from the 
 FontForge source. So you must have Python and FontForge installed.
 
-To install all the Python tools into a virtualenv, do the following:
-
-From terminal:
+To build the fonts, run from terminal:
 
 ```
 
