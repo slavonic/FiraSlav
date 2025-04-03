@@ -20,7 +20,23 @@ images: venv $(DRAWBOT_OUTPUT)
 %.png: %.py build.stamp
 	. venv/bin/activate; python3 $< --output $@
 
+otf-package: FiraSlav-OTF.zip
+
+FiraSlav-OTF.zip:
+	rm -f *.otf
+	cp fonts/otf/*.otf ./
+	zip -r -q FiraSlav-OTF.zip *.otf
+	rm -f *.otf
+
+ttf-package: FiraSlav-TTF.zip
+
+FiraSlav-TTF.zip:
+	rm -f *.ttf
+	cp fonts/ttf/*.ttf ./
+	zip -r -q FiraSlav-TTF.zip *.ttf
+	rm -f *.ttf
+
 clean:
-	rm build.stamp
+	rm -f build.stamp *.zip
 	rm -rf venv
 	find . -name "*.pyc" -delete
